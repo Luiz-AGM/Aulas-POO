@@ -39,3 +39,25 @@ console.log(especie2());
 
 //Questão 3
 
+function Aluno (nome, idade, email, matricula, curso){
+    this.nome = nome,
+    this.idade = idade,
+    this.email = email,
+    this.matricula = matricula,
+    this.curso = curso
+};
+
+Aluno.prototype.getcurso = function () {
+    return this.curso;
+};
+    
+const Aluno1 = new Aluno (
+"José",
+33,
+"jose@email.com",
+123456,
+"Matemática"
+);
+
+console.log(Aluno1);
+console.log(Aluno1.getcurso());
