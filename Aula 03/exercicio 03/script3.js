@@ -1,4 +1,4 @@
-console.log ("===Exercicio 3 - 03 ===")
+console.log ("=== Exercicio 3 - 03 ===")
 
 // // Construa uma classe Veiculo que tem como propriedades rodas (1 a n), usaCombustivel (true/false), 
 // // uma classe Carro (tipoDecombustivel: 'gasolina', 'álcool', 'flex') que herda de Veiculo e Bicicleta 

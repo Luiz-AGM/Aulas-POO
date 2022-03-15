@@ -1,4 +1,4 @@
-console.log ("===Exercicio 3 - 02 ===")
+console.log ("=== Exercicio 3 - 02 ===")
 
 
 // // Faça uma classe SmartWatch com a contagem dos passos diários de uma pessoa (pedômetro). Garanta 

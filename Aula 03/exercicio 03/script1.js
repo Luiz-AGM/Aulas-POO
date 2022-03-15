@@ -1,4 +1,4 @@
-console.log ("===Exercicio 3 - 01 ===")
+console.log ("=== Exercicio 3 - 01 ===")
 
 // Faça uma classe Perfil que tem as seguintes informações: nome, avatar (foto de perfil) e tema. 
 // Utilize acessors (get/set) para garantir que o tema só pode ser "light" ou "dark" e que a foto de 
