@@ -24,8 +24,8 @@ class CNH {
 }
 }
     class cnhbr extends CNH {
-        constructor (pais = "BR", idade, categoria = "") {
-            super (pais, idade)
+        constructor (pais, idade, categoria = "") {
+            super (pais = "BR", idade)
             this.categoria = categoria
         }
     }
@@ -38,7 +38,7 @@ class CNH {
     console.log (teste1);
     console.log (teste1.verificaPaisIdade());
         
-    let teste2 = new cnhbr ("BR", 17, "A" )
+    let teste2 = new cnhbr ("", 17, "A" )
     console.log (teste2);
     console.log (teste2.verificaPaisIdade());
     
